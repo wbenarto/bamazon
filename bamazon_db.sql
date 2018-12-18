@@ -24,3 +24,16 @@ INSERT INTO products (item_id, product_name, department_name, price, stock_quant
     (10, "Salmon Sashimi", "Sashimi", 16, 0),
     (11, "Inari", "Side Dish", 4, 10),
     (12, "Edamame", "Side Dish", 4, 10)
+
+CREATE TABLE departments (
+    department_id INT(10) NOT NULL AUTO_INCREMENT,
+    department_name VARCHAR(30) NOT NULL,
+    overhead_costs INT(10) NOT NULL,
+    PRIMARY KEY (department_id)
+)
+
+INSERT INTO departments (department_id, department_name, overhead_costs) VALUES
+    (1, "Inside Out", 245),
+    (2, "Special", 875),
+    (3, "Sashimi", 19),
+    (4, "Side Dish", 29)

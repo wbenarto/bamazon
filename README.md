@@ -16,8 +16,9 @@ needed, and even add new items to your inventory!
 Happy shopping!
 
 ## Watch how Bamazon works:
-Bamazon Customer : https://youtu.be/ICqFhFLAfKg
-Bamazon Manager : https://youtu.be/3XerkI5qBso
+Bamazon Customer : https://youtu.be/ICqFhFLAfKg.
+Bamazon Manager : https://youtu.be/3XerkI5qBso.
+Bamzon Supervisor: https://youtu.be/vT5ERASIs3M.
 
 ## Technologies Used:
     Node.js
@@ -30,32 +31,45 @@ Customer will get a welcome message and the menu. Inquirer then will take the pr
 
 ### Bamazon-Customer
 1. Insert "node bamazonCustomer.js" in the terminal:
-![How to use the app](https://i.imgur.com/mYliPxO.png)
+![How to use the app](https://i.imgur.com/mYliPxO.png){:height="50%"}
 
 2. Prompt then will give ask you to insert product id and amount:
-![prompt](https://i.imgur.com/ZTs8C4J.png)
+![prompt](https://i.imgur.com/ZTs8C4J.png){:height="50%"}
 
 3. User will get the total amount and prompt that asks to purchase more products:
-![prompt](https://i.imgur.com/7cabooG.png)
+![prompt](https://i.imgur.com/7cabooG.png){:height="50%"}
 
 4. If user choose not to buy more then thank ou message will be prompted:
-![prompt](https://i.imgur.com/KhhgYVB.png)
+![prompt](https://i.imgur.com/KhhgYVB.png){:height="50%"}
 
 ### Bamazon-Manager
 1. Insert "node bamazonManager.js" in the terminal: 
-![How to use the app](https://i.imgur.com/YSIil7d.png)
+![How to use the app](https://i.imgur.com/YSIil7d.png){:height="50%"}
 
 2. View inventory:
-![View Inventory](https://i.imgur.com/mJfBgGJ.png)
+![View Inventory](https://i.imgur.com/mJfBgGJ.png){:height="50%"}
 
 3. View low inventory (less than 5):
-![View Low Inventory](https://i.imgur.com/gDTFrKC.png)
+![View Low Inventory](https://i.imgur.com/gDTFrKC.png){:height="50%"}
 
 4. Add inventory to existing product:
-![Add inventory](https://i.imgur.com/j8NSzG6.png)
+![Add inventory](https://i.imgur.com/j8NSzG6.png){:height="50%"}
 
 5. Add a completely new product to the menu: 
-![New product](https://i.imgur.com/tIgud9X.png)
+![New product](https://i.imgur.com/tIgud9X.png){:height="50%"}
 
 6. View the added new product and end node:
-![Exit message](https://i.imgur.com/LIOD3Pz.png)
+![Exit message](https://i.imgur.com/LIOD3Pz.png){:height="50%"}
+
+### Bamazon-Supervisor
+1. Inser "node bamazonSupervisor.js" in the terminal:
+![How to use the app](https://i.imgur.com/zzVOyyh.png){:height="50%"}
+
+2. View total sales by departments and total profit:
+![View sales and profit](https://i.imgur.com/FHZ9vkV.png){:height="50%"}
+
+3. Create new departments:
+![Create new departments](https://i.imgur.com/k38Tsch.png){:height="50%"}
+
+4. View updated departments and end node:
+![View updated table](https://i.imgur.com/gtItl7L.png){:height="50%"}

@@ -71,7 +71,7 @@ function buyProducts() {
         message: "Please enter the ID number of the item you would like to purchase:",
         name: "inputId",
         validate: function (input) {
-            if (parseInt(input) <= allProducts) {
+            if (parseInt(input) <= allProducts + 1) {
                 return true
             } else {
                 console.log("\n ***Please enter a valid id.***");
@@ -112,8 +112,10 @@ function buyProducts() {
                     console.log("====    Thank you for your purchase. I hope you like your sushi!    \n\n");
                     console.log("=================================================================================\n\n");
 
+                    var totalSales = parseInt(res[i].price * parseInt(answer.inputNumber));
                     var newStock = (parseInt(res[i].stock_quantity) - parseInt(answer.inputNumber));
                     var purchaseId = parseInt(answer.inputId);
+                    insertSales(totalSales, purchaseId);
                     updateInventory(newStock, purchaseId);
                     // console.log("Current inventory: " + newStock);
                     // console.log("Purchased Item ID: " + purchaseId);
@@ -121,6 +123,18 @@ function buyProducts() {
             };
         });
     });
+};
+
+function insertSales(totalSales, purchaseId) {
+    console.log("Insert sales function firing: TOTAL SALES $ " + totalSales);
+
+    query = "UPDATE products SET ? WHERE ?";
+    connection.query(query, [{
+        product_sales: totalSales
+    }, {
+        item_id: purchaseId
+    }], function(err, res){});
+
 };
 
 function updateInventory(newStock, purchaseId) {

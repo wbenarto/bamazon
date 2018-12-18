@@ -63,6 +63,7 @@ function viewProducts() {
 
     var query = "SELECT * FROM products";
     connection.query(query, function (err, res) {
+        console.log(res[i].product_sales)
         for (var i = 0; i < res.length; i++) {
 
             var itemID = res[i].item_id,
