@@ -44,7 +44,8 @@ Customer will get a welcome message and the menu. Inquirer then will take the pr
 
 ### Bamazon-Manager
 1. Insert "node bamazonManager.js" in the terminal: 
-![How to use the app](https://i.imgur.com/YSIil7d.png){:height="50%"}
+<!-- ![How to use the app](https://i.imgur.com/YSIil7d.png){:height="50%"} -->
+<img src="https://i.imgur.com/YSIil7d.png" width="50px">
 
 2. View inventory:
 ![View Inventory](https://i.imgur.com/mJfBgGJ.png){:height="50%"}
