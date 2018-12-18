@@ -16,9 +16,9 @@ needed, and even add new items to your inventory!
 Happy shopping!
 
 ## Watch how Bamazon works:
-Bamazon Customer : https://youtu.be/ICqFhFLAfKg.
-Bamazon Manager : https://youtu.be/3XerkI5qBso.
-Bamzon Supervisor: https://youtu.be/vT5ERASIs3M.
+    Bamazon Customer : https://youtu.be/ICqFhFLAfKg.
+    Bamazon Manager : https://youtu.be/3XerkI5qBso.
+    Bamazon Supervisor: https://youtu.be/vT5ERASIs3M.
 
 ## Technologies Used:
     Node.js
