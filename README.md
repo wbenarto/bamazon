@@ -31,7 +31,7 @@ Customer will get a welcome message and the menu. Inquirer then will take the pr
 
 ### Bamazon-Customer
 1. Insert "node bamazonCustomer.js" in the terminal:
-<img src="https://i.imgur.com/mYliPxO.png" alt="How to use the app" width="400px">
+<img src="https://i.imgur.com/0JcDyqw.png" alt="How to use the app" width="400px">
 
 2. Prompt then will give ask you to insert product id and amount:
 <img src="https://i.imgur.com/ZTs8C4J.png" alt="prompt" width="400px">
